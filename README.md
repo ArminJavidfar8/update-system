@@ -4,15 +4,6 @@ A lightweight and efficient **C# update service** for Unity, designed to help yo
 `Update`, `FixedUpdate`, and `LateUpdate` calls in a clean, decoupled manner without requiring  
 every object to inherit from `MonoBehaviour`.
 
-## Why This System?
-
-In Unity, managing update loops for many objects can sometimes lead to cluttered `MonoBehaviour` scripts or the need for constant `GetComponent` calls.  
-This **Update System** provides a centralized, performance-conscious approach to handle your update logic, allowing you to:
-
-- **Decouple Update Logic**: Keep your game logic separate from `MonoBehaviour` lifecycle methods.  
-- **Centralized Control**: Register and unregister update actions from a single service.  
-- **Clean Architecture**: Promotes a cleaner code structure by enabling Plain Old C# Objects to participate in Unity's update loop.
-
 ## Getting Started
 
 ### Installation
