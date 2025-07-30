@@ -1,0 +1,13 @@
+{
+  "name": "com.yekgames.updatesystem",
+  "version": "1.0.0",
+  "displayName": "Update System",
+  "description": "Update system for non-monobehavior classes in Unity.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Armin Javidfar",
+    "email": "arminjavidfar@gmail.com",
+    "url": "https://github.com/ArminJavidfar8"
+  },
+  "dependencies": {}
+}

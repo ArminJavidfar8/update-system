@@ -1,6 +1,6 @@
 using System;
 
-namespace Services.UpdateService.Abstraction
+namespace YekGames.UpdateService.Abstraction
 {
     public interface IUpdateService
     {

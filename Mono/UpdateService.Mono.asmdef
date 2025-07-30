@@ -1,0 +1,16 @@
+{
+    "name": "UpdateService.Mono",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3862c5c229fbd3e42b29953b3a06e2d8"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

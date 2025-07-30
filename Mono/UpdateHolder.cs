@@ -1,11 +1,16 @@
-using Services.UpdateService.Abstraction;
 using UnityEngine;
+using YekGames.UpdateService.Abstraction;
 
-namespace Services.UpdateService
+namespace YekGames.UpdateService.Mono
 {
     public class UpdateHolder : MonoBehaviour
     {
         private IUpdateService _updateService;
+
+        private void Awake()
+        {
+            DontDestroyOnLoad(this);
+        }
 
         public void SetUpdateListener(IUpdateService updateService)
         {

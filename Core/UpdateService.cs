@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using YekGames.UpdateService.Abstraction;
+using YekGames.UpdateService.Mono;
 
-namespace Services.UpdateService.Abstraction
+namespace YekGames.UpdateService.Core
 {
     public class UpdateService : IUpdateService
     {
@@ -17,6 +19,7 @@ namespace Services.UpdateService.Abstraction
         public UpdateService()
         {
             _updateHolder = new GameObject().AddComponent<UpdateHolder>();
+            _updateHolder.name = "UpdateHolder";
             _updateHolder.SetUpdateListener(this);
             _updateActions = new List<Action>();
         }
